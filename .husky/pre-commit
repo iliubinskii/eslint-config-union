@@ -1,0 +1,8 @@
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
+
+if [ "$BRANCH_NAME" = "master" ]; then
+  echo "Commits to $BRANCH_NAME branch are forbidden."
+  exit 1
+fi
+
+run-p format lint-markdown lint-no-fix type-check
