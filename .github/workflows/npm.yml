@@ -17,10 +17,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - name: Install pnpm
-        run: npm install -g pnpm
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
       - name: Publish to npm
         uses: JS-DevTools/npm-publish@v3
         with:
