@@ -7,7 +7,7 @@ const config = {
     browser: true,
     es2022: true
   },
-  extends: "./index.cjs",
+  extends: "./index.js",
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: { jsx: true },
@@ -25,7 +25,9 @@ const config = {
             ["cjsx", "escompat", "mjsx", "packagejson", "sonarjs"]
         }
       }
-    ]
+    ],
+    "import/no-commonjs": "off",
+    "unicorn/prefer-module": "off"
   }
 };
 
