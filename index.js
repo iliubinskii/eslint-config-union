@@ -200,6 +200,7 @@ const config = {
     ],
     "import/no-internal-modules": "warn",
     "import/no-named-as-default-member": "off",
+    "import/no-namespace": "off",
     "import/no-self-import": "warn",
     "import/no-unresolved": "off",
     "init-declarations": "off",
