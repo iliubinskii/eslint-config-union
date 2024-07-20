@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-union",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "private": false,
   "description": "ESLint config",
   "keywords": [
