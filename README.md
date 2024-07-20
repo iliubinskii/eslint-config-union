@@ -8,7 +8,7 @@
 
 ## Overview
 
-Typescript library.
+This ESLint configuration integrates various popular ESLint plugins.
 
 ## Installation
 
