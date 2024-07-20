@@ -6,17 +6,17 @@
 - [Installation](#installation)
 - [Configurations](#configurations)
 
-## <a id="overview"></a>Overview
+## Overview
 
 Typescript library.
 
-## <a id="installation"></a>Installation
+## Installation
 
 ```sh
 npm install --save-dev eslint-config-union
 ```
 
-## <a id="configurations"></a>Configurations
+## Configurations
 
 - `union`
 - `union/react`
