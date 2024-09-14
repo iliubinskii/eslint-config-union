@@ -157,6 +157,7 @@ const config = {
       "warn",
       { allowNumber: true }
     ],
+    "@typescript-eslint/strict-boolean-expressions": "warn",
     "@typescript-eslint/switch-exhaustiveness-check": "off",
     "array-callback-return": "off",
     "arrow-body-style": [
